@@ -33,10 +33,10 @@ navegador = webdriver.Chrome(service=service)
 
 #Entrando no site statusinvest
 navegador.get('https://statusinvest.com.br/')
-sleep(15) #espera 15 segundos para que a propagando apareça
+# sleep(15) #espera 15 segundos para que a propagando apareça
 
-#Clicando para fechar a propaganda
-navegador.find_element(By.XPATH, '/html/body/div[19]/div/div/div[1]/button/i').click()
+# #Clicando para fechar a propaganda
+# navegador.find_element(By.XPATH, '/html/body/div[19]/div/div/div[1]/button/i').click()
 
 # Criando o cabeçalho do PDF
 pdf = FPDF()
