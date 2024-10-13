@@ -67,7 +67,7 @@ for ativo in ativos_formatados:
     #Colocando o ativo dentro da barra de pesquisa
     navegador.find_element(By.XPATH, '//*[@id="main-search"]/div[1]/span[1]/input[2]').send_keys(ativo)
 
-    sleep(3) #aguardando 3 segundos para carregar o nome do ativo
+    sleep(5) #aguardando 3 segundos para carregar o nome do ativo
 
     #Se o usuário digitou o ativo de forma incorreta o código finaliza
     try:
